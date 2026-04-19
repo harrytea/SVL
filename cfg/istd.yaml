@@ -1,0 +1,16 @@
+model: 'dinov3'
+dinov3:
+  img_size: 512
+ckpt_model: './istd/ckpt'
+ckpt_image: './istd/image'
+iter: 20000
+save_epoch: 10
+beta1: 0.5
+batch_size: 16
+loss: "MyWcploss"
+optimizer:
+  use: "SGD"
+  lr: 0.005
+  weight_decay: 0.0005
+  momentum: 0.9
+logfile: './istd/ckpt/train.log'

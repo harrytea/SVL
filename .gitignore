@@ -1,0 +1,4 @@
+__pycache__/
+.DS_Store
+CLIP/ckpt/ViT-L-14-336px.pt
+dinov3/ckpt/dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth
